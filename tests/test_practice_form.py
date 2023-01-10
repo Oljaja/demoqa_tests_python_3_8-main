@@ -16,10 +16,10 @@ def test_fill_practice_form(window_size):
     practice_form.select_picture('111.jpg')
     practice_form.set_current_address('Angelovo')
     practice_form.select_state('Haryana')
-    #practice_form.select_city('Panipat')
+    practice_form.select_city('Karnal')
     practice_form.submit()
 
 
     practice_form.check_results('Ona Nov', 'test@gmail.com', 'Other', '8999955555',
-                                '03, 01,2023', 'Economics', 'Sports', '111.png',
-                                'Angelovo', 'Haryana Panipat')
+                                '03 January,2023', 'Economics', 'Sports', '111.jpg',
+                                'Angelovo', 'Haryana Karnal')
